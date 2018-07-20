@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+	"name": "YouTube Pauser",
+	"version": "0.1",
+	"description": "Single click the icon to play/pause the leftmost YouTube tab, double click to skip. The icon shows elapsed time and video length.",
+	"author": "Matthew Zirbel",
+
+	"permissions": [
+		"tabs"
+	],
+	"content_scripts": [
+		{
+			"matches": [
+				"*://www.youtube.com/*"
+			],
+			"js": ["jquery-2.1.3.min.js", "content.js"]
+		}
+	],
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"browser_action": {
+		"default_icon": "icon.png"
+	}
+}
