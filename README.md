@@ -9,6 +9,6 @@ This extension is designed as a fast, one-click way to pause a YouTube video. Th
 Single click the icon to play/pause the leftmost YouTube tab, double click to skip.
 The icon shows the current minutes into the video over the total video length.
 
-Currently available for Chrome and Firefox:
-[Chrome Store Page](https://chrome.google.com/webstore/detail/youtube-pauser/ocbjhmfcfglemljibkmppgppknanmkdl?hl=en)
+Currently available for Chrome and Firefox:  
+[Chrome Store Page](https://chrome.google.com/webstore/detail/youtube-pauser/ocbjhmfcfglemljibkmppgppknanmkdl?hl=en)  
 [Firefox Page](https://addons.mozilla.org/addon/youtube-pauseandskip/)
